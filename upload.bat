@@ -1,3 +1,4 @@
+git pull
 git add -A
-git commit -am "changed xyz"
+git commit -am "Modified resourcepack"
 git push
