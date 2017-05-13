@@ -8,7 +8,7 @@
 		{ "predicate": {"damaged": 0, "damage": 0.0025974025974025974}, "model": "item/custom/blaster/pistol"},
 		{ "predicate": {"damaged": 0, "damage": 0.005194805194805195}, "model": "item/custom/blaster/rifle"},
 		{ "predicate": {"damaged": 0, "damage": 0.007792207792207792}, "model": "item/custom/blaster/sniper"},
-		{ "predicate": {"damaged": 0, "damage": 0.01038961038961039}, "model": "item/custom/blaster/automaticrifle"},
+		{ "predicate": {"damaged": 0, "damage": 0.01038961038961039}, "model": "item/custom/blaster/autorifle"},
 		{ "predicate": {"damaged": 0, "damage": 0.012987012987012988}, "model": "item/bow_standby4"},
 		{ "predicate": {"damaged": 0, "damage": 0.015584415584415584}, "model": "item/bow_standby5"},
 		{ "predicate": {"damaged": 0, "damage": 0.01818181818181818}, "model": "item/bow_standby6"},
