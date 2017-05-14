@@ -1,5 +1,5 @@
 {
-    "parent": "builtin/generated",
+    "parent": "item/bow",
     "textures": {
         "layer0": "items/custom/blaster/pistol"
     }

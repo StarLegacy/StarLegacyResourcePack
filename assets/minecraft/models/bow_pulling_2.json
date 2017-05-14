@@ -1,6 +1,6 @@
 {
     "parent": "item/bow",
     "textures": {
-        "layer0": "items/custom/blaster/rifle"
+        "layer0": "items/bow_pulling_2"
     }
 }
