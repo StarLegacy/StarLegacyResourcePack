@@ -1,3 +1,6 @@
 {
-    "parent": "block/custom/ores/copper"
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/custom/ores/copper"
+    }
 }

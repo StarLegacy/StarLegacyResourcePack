@@ -1,3 +1,6 @@
 {
-    "parent": "block/custom/ores/uranium"
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/custom/ores/uranium"
+    }
 }
