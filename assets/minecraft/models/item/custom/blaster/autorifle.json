@@ -1,6 +1,6 @@
 {
     "parent": "item/bow",
     "textures": {
-        "layer0": "items/custom/blasters/autorifle"
+        "layer0": "items/custom/blaster/autorifle"
     }
 }
