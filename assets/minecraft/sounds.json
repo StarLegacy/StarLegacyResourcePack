@@ -19,5 +19,20 @@
         "sounds": [
             "random/creeperfuse"
         ]
+    },
+    "energy_sword.idle": {
+        "sounds": ["energy_sword/idle"]
+    },
+    "energy_sword.strike": {
+        "sounds": ["energy_sword/strike"]
+    },
+    "energy_sword.off": {
+        "sounds": ["energy_sword/off"]
+    },
+    "energy_sword.on": {
+        "sounds": ["energy_sword/on"]
+    },
+    "energy_sword.swing": {
+        "sounds": ["energy_sword/swing"]
     }
 }

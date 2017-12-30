@@ -1,0 +1,6 @@
+{
+    "parent": "block/custom/laser/laserbase",
+    "textures": {
+        "all": "blocks/glass_blue"
+    }
+}

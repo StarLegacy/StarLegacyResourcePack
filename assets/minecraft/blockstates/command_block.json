@@ -1,16 +1,16 @@
 {
     "variants": {
-        "conditional=false,facing=down":  { "model": "command_block", "x": 90 },
-        "conditional=false,facing=up":    { "model": "command_block", "x": 270 },
-        "conditional=false,facing=north": { "model": "command_block" },
-        "conditional=false,facing=south": { "model": "command_block", "y": 180 },
-        "conditional=false,facing=west":  { "model": "command_block", "y": 270 },
-        "conditional=false,facing=east":  { "model": "command_block", "y": 90 },
-        "conditional=true,facing=down":  { "model": "command_block_conditional", "x": 90 },
-        "conditional=true,facing=up":    { "model": "command_block_conditional", "x": 270 },
-        "conditional=true,facing=north": { "model": "command_block_conditional" },
-        "conditional=true,facing=south": { "model": "command_block_conditional", "y": 180 },
-        "conditional=true,facing=west":  { "model": "command_block_conditional", "y": 270 },
-        "conditional=true,facing=east":  { "model": "command_block_conditional", "y": 90 }
+        "conditional=false,facing=down":  { "model": "custom/laser/red", "y": 0 },
+        "conditional=false,facing=up":    { "model": "custom/laser/red", "y": 90 },
+        "conditional=false,facing=north": { "model": "custom/laser/red", "y": 180 },
+        "conditional=false,facing=south": { "model": "custom/laser/red", "y": 270 },
+        "conditional=false,facing=west":  { "model": "custom/laser/green", "y": 0 },
+        "conditional=false,facing=east":  { "model": "custom/laser/green", "y": 90 },
+        "conditional=true,facing=down":  { "model": "custom/laser/green", "y": 180 },
+        "conditional=true,facing=up":    { "model": "custom/laser/green", "y": 270 },
+        "conditional=true,facing=north": { "model": "custom/laser/blue", "y": 0 },
+        "conditional=true,facing=south": { "model": "custom/laser/blue", "y": 90 },
+        "conditional=true,facing=west":  { "model": "custom/laser/blue", "y": 180 },
+        "conditional=true,facing=east":  { "model": "custom/laser/blue", "y": 270 }
     }
 }
