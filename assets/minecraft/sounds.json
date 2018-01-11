@@ -34,5 +34,11 @@
     },
     "energy_sword.swing": {
         "sounds": ["energy_sword/swing"]
+    },
+    "starships.ambience": {
+        "sounds": ["starship_ambience"]
+    },
+    "laser": {
+        "sounds": ["laser"]
     }
 }
