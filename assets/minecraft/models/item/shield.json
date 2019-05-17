@@ -1,14 +1,17 @@
 {
     "parent": "builtin/entity",
+    "textures": {
+        "particle": "block/dark_oak_planks"
+    },
     "display": {
         "thirdperson_righthand": {
             "rotation": [ 0, 90, 0 ],
-            "translation": [ 10.51, 6, -4 ],
+            "translation": [ 10, 6, -4 ],
             "scale": [ 1, 1, 1 ]
         },
         "thirdperson_lefthand": {
             "rotation": [ 0, 90, 0 ],
-            "translation": [ 10.51, 6, 12 ],
+            "translation": [ 10, 6, 12 ],
             "scale": [ 1, 1, 1 ]
         },
         "firstperson_righthand": {
@@ -38,25 +41,18 @@
         }
     },
     "overrides": [
-        {
-            "predicate": {
-                "blocking": 1
-            },
-            "model": "item/shield_blocking"
-        },
-        {"predicate": {"damaged": 0, "damage": 0.0029, "blocking": 0}, "model": "item/custom/energy_sword/blue_energy_sword"},
-        {"predicate": {"damaged": 0, "damage": 0.0029, "blocking": 1}, "model": "item/custom/energy_sword/blue_energy_sword_blocking"},
-        {"predicate": {"damaged": 0, "damage": 0.0058, "blocking": 0}, "model": "item/custom/energy_sword/red_energy_sword"},
-        {"predicate": {"damaged": 0, "damage": 0.0058, "blocking": 1}, "model": "item/custom/energy_sword/red_energy_sword_blocking"},
-        {"predicate": {"damaged": 0, "damage": 0.0087, "blocking": 0}, "model": "item/custom/energy_sword/yellow_energy_sword"},
-        {"predicate": {"damaged": 0, "damage": 0.0087, "blocking": 1}, "model": "item/custom/energy_sword/yellow_energy_sword_blocking"},
-        {"predicate": {"damaged": 0, "damage": 0.0116, "blocking": 0}, "model": "item/custom/energy_sword/green_energy_sword"},
-        {"predicate": {"damaged": 0, "damage": 0.0116, "blocking": 1}, "model": "item/custom/energy_sword/green_energy_sword_blocking"},
-        {"predicate": {"damaged": 0, "damage": 0.0144, "blocking": 0}, "model": "item/custom/energy_sword/purple_energy_sword"},
-        {"predicate": {"damaged": 0, "damage": 0.0144, "blocking": 1}, "model": "item/custom/energy_sword/purple_energy_sword_blocking"},
-        {"predicate": {"damaged": 0, "damage": 0.0174, "blocking": 0}, "model": "item/custom/energy_sword/orange_energy_sword"},
-        {"predicate": {"damaged": 0, "damage": 0.0174, "blocking": 1}, "model": "item/custom/energy_sword/orange_energy_sword_blocking"},
-	    {"predicate": {"damaged": 1, "damage": 0}, "model": "item/shield"},  
-	    {"predicate": {"damaged": 1, "damage": 0, "blocking": 1}, "model": "item/shield_blocking"}
-	]
+        { "predicate": { "custom_model_data": 1, "blocking": 0 }, "model": "item/custom/energy_sword/blue_energy_sword" },
+        { "predicate": { "custom_model_data": 1, "blocking": 1 }, "model": "item/custom/energy_sword/blue_energy_sword_blocking" },
+        { "predicate": { "custom_model_data": 2, "blocking": 0 }, "model": "item/custom/energy_sword/red_energy_sword" },
+        { "predicate": { "custom_model_data": 2, "blocking": 1 }, "model": "item/custom/energy_sword/red_energy_sword_blocking" },
+        { "predicate": { "custom_model_data": 3, "blocking": 0 }, "model": "item/custom/energy_sword/yellow_energy_sword" },
+        { "predicate": { "custom_model_data": 3, "blocking": 1 }, "model": "item/custom/energy_sword/yellow_energy_sword_blocking" },
+        { "predicate": { "custom_model_data": 4, "blocking": 0 }, "model": "item/custom/energy_sword/green_energy_sword" },
+        { "predicate": { "custom_model_data": 4, "blocking": 1 }, "model": "item/custom/energy_sword/green_energy_sword_blocking" },
+        { "predicate": { "custom_model_data": 5, "blocking": 0 }, "model": "item/custom/energy_sword/purple_energy_sword" },
+        { "predicate": { "custom_model_data": 5, "blocking": 1 }, "model": "item/custom/energy_sword/purple_energy_sword_blocking" },
+        { "predicate": { "custom_model_data": 6, "blocking": 0 }, "model": "item/custom/energy_sword/orange_energy_sword" },
+        { "predicate": { "custom_model_data": 6, "blocking": 1 }, "model": "item/custom/energy_sword/orange_energy_sword_blocking" },
+        { "predicate": { "blocking": 1 }, "model": "item/shield_blocking" }
+    ]
 }
