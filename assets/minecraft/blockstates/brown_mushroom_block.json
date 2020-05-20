@@ -10,8 +10,8 @@
         "variant=south": { "model": "custom/ores/chetherite_block" },
         "variant=south_east": { "model": "custom/ores/titanium_block" },
         "variant=stem": { "model": "custom/ores/uranium_block" },
-        "variant=all_stem": { "model": "brown_mushroom_block_stem_all" },
-        "variant=all_outside": { "model": "brown_mushroom_block_cap_all" },
-        "variant=all_inside": { "model": "brown_mushroom_block_inside_all" }
+        "variant=all_inside": { "model": "brown_mushroom_block_inside_all" },
+        "variant=all_outside": { "model": "custom/ores/oriomium_ore" },
+        "variant=all_stem": { "model": "custom/ores/oriomium_block" }
     }
 }
