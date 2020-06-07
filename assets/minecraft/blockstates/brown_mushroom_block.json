@@ -39,6 +39,14 @@
         {
             "when": { "down": false, "east": true, "north": true, "south": true, "up": false, "west": true },
             "apply": { "model": "block/custom/ores/uranium_block"}
+        },
+        {
+            "when": { "down": true, "east": true, "north": true, "south": true, "up": true, "west": true },
+            "apply": { "model": "block/custom/ores/oriomium_ore"}
+        },
+        {
+            "when": { "down": true, "east": false, "north": false, "south": false, "up": true, "west": false },
+            "apply": { "model": "block/custom/ores/oriomium_block"}
         }
     ]
 }
