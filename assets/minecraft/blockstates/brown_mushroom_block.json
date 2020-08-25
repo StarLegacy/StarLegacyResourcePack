@@ -1,17 +1,168 @@
 {
-    "variants": {
-        "variant=north_west": { "model": "custom/ores/copper_ore" },
-        "variant=north": { "model": "custom/ores/aluminum_ore" },
-        "variant=north_east": { "model": "custom/ores/chetherite_ore" },
-        "variant=west": { "model": "custom/ores/titanium_ore" },
-        "variant=center": { "model": "custom/ores/uranium_ore" },
-        "variant=east": { "model": "custom/ores/copper_block" },
-        "variant=south_west": { "model": "custom/ores/aluminum_block" },
-        "variant=south": { "model": "custom/ores/chetherite_block" },
-        "variant=south_east": { "model": "custom/ores/titanium_block" },
-        "variant=stem": { "model": "custom/ores/uranium_block" },
-        "variant=all_inside": { "model": "brown_mushroom_block_inside_all" },
-        "variant=all_outside": { "model": "custom/ores/oriomium_ore" },
-        "variant=all_stem": { "model": "custom/ores/oriomium_block" }
-    }
+    "multipart": [
+      {
+        "when": {
+          "north": "true"
+        },
+        "apply": {
+          "model": "minecraft:block/brown_mushroom_block"
+        }
+      },
+      {
+        "when": {
+          "east": "true"
+        },
+        "apply": {
+          "model": "minecraft:block/brown_mushroom_block",
+          "y": 90,
+          "uvlock": true
+        }
+      },
+      {
+        "when": {
+          "south": "true"
+        },
+        "apply": {
+          "model": "minecraft:block/brown_mushroom_block",
+          "y": 180,
+          "uvlock": true
+        }
+      },
+      {
+        "when": {
+          "west": "true"
+        },
+        "apply": {
+          "model": "minecraft:block/brown_mushroom_block",
+          "y": 270,
+          "uvlock": true
+        }
+      },
+      {
+        "when": {
+          "up": "true"
+        },
+        "apply": {
+          "model": "minecraft:block/brown_mushroom_block",
+          "x": 270,
+          "uvlock": true
+        }
+      },
+      {
+        "when": {
+          "down": "true"
+        },
+        "apply": {
+          "model": "minecraft:block/brown_mushroom_block",
+          "x": 90,
+          "uvlock": true
+        }
+      },
+      {
+        "when": {
+          "north": "false"
+        },
+        "apply": {
+          "model": "minecraft:block/mushroom_block_inside"
+        }
+      },
+      {
+        "when": {
+          "east": "false"
+        },
+        "apply": {
+          "model": "minecraft:block/mushroom_block_inside",
+          "y": 90,
+          "uvlock": false
+        }
+      },
+      {
+        "when": {
+          "south": "false"
+        },
+        "apply": {
+          "model": "minecraft:block/mushroom_block_inside",
+          "y": 180,
+          "uvlock": false
+        }
+      },
+      {
+        "when": {
+          "west": "false"
+        },
+        "apply": {
+          "model": "minecraft:block/mushroom_block_inside",
+          "y": 270,
+          "uvlock": false
+        }
+      },
+      {
+        "when": {
+          "up": "false"
+        },
+        "apply": {
+          "model": "minecraft:block/mushroom_block_inside",
+          "x": 270,
+          "uvlock": false
+        }
+      },
+      {
+        "when": {
+          "down": "false"
+        },
+        "apply": {
+          "model": "minecraft:block/mushroom_block_inside",
+          "x": 90,
+          "uvlock": false
+        }
+      },
+      {
+            "when": { "down": false, "east": false, "north": true, "south": false, "up": true, "west": false },
+            "apply": { "model": "block/custom/ores/aluminum_ore"}
+        },
+        {
+            "when": { "down": false, "east": false, "north": false, "south": true, "up": true, "west": true },
+            "apply": { "model": "block/custom/ores/aluminum_block"}
+        },
+        {
+            "when": { "down": false, "east": true, "north": true, "south": false, "up": true, "west": false },
+            "apply": { "model": "block/custom/ores/chetherite_ore"}
+        },
+        {
+            "when": { "down": false, "east": false, "north": false, "south": true, "up": true, "west": false },
+            "apply": { "model": "block/custom/ores/chetherite_block"}
+        },
+        {
+            "when": { "down": false, "east": false, "north": true, "south": false, "up": true, "west": true },
+            "apply": { "model": "block/custom/ores/copper_ore"}
+        },
+        {
+            "when": { "down": false, "east": true, "north": false, "south": false, "up": true, "west": false },
+            "apply": { "model": "block/custom/ores/copper_block"}
+        },
+        {
+            "when": { "down": false, "east": false, "north": false, "south": false, "up": true, "west": true },
+            "apply": { "model": "block/custom/ores/titanium_ore"}
+        },
+        {
+            "when": { "down": false, "east": true, "north": false, "south": true, "up": true, "west": false },
+            "apply": { "model": "block/custom/ores/titanium_block"}
+        },
+        {
+            "when": { "down": false, "east": false, "north": false, "south": false, "up": true, "west": false },
+            "apply": { "model": "block/custom/ores/uranium_ore"}
+        },
+        {
+            "when": { "down": false, "east": true, "north": true, "south": true, "up": false, "west": true },
+            "apply": { "model": "block/custom/ores/uranium_block"}
+        },
+        {
+            "when": { "down": true, "east": true, "north": true, "south": true, "up": true, "west": true },
+            "apply": { "model": "block/custom/ores/oriomium_ore"}
+        },
+        {
+            "when": { "down": true, "east": false, "north": false, "south": false, "up": false, "west": false },
+            "apply": { "model": "block/custom/ores/oriomium_block"}
+        }
+    ]
 }

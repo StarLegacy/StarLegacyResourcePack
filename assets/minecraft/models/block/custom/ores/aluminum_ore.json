@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/custom/ores/aluminum_ore"
+        "all": "block/custom/ores/aluminum_ore"
     }
 }

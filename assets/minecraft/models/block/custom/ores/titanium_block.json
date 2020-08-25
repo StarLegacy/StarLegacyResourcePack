@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "blocks/custom/ores/titanium_block"
+        "all": "block/custom/ores/titanium_block"
     }
 }

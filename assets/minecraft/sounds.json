@@ -40,5 +40,8 @@
     },
     "laser": {
         "sounds": ["laser"]
+    },
+    "laserhit": {
+        "sounds": ["laserhit"]
     }
 }
