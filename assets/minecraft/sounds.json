@@ -47,6 +47,9 @@
     "laser_ripple": {
         "sounds": ["laser_ripple"]
     },
+    "large_laser": {
+        "sounds": ["large_laser"]
+    },
     "laserhit": {
         "sounds": ["laserhit"]
     }
