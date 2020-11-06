@@ -41,6 +41,12 @@
     "laser": {
         "sounds": ["laser"]
     },
+    "laser_cannon": {
+        "sounds": ["laser_cannon"]
+    },
+    "laser_ripple": {
+        "sounds": ["laser_ripple"]
+    },
     "laserhit": {
         "sounds": ["laserhit"]
     }
