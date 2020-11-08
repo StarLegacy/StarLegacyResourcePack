@@ -149,17 +149,12 @@
             {
                 "name": "starship/weapon/plasma_cannon/shoot",
                 "attenuation_distance": 10,
-                "pitch": 0.95
+                "pitch": 1.1
             },
             {
                 "name": "starship/weapon/plasma_cannon/shoot",
                 "attenuation_distance": 10,
-                "pitch": 0.9
-            },
-            {
-                "name": "starship/weapon/plasma_cannon/shoot",
-                "attenuation_distance": 10,
-                "pitch": 0.85
+                "pitch": 1.2
             }
         ]
     }
