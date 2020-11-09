@@ -57,8 +57,9 @@
         "sounds": [
             {
                 "name": "starship/weapon/heavy_laser/single",
-                "attenuation_distance": 16,
-                "pitch": 1.0
+                "attenuation_distance": 48,
+                "pitch": 1.0,
+                "volume": 0.5
             }
         ]
     },
@@ -66,90 +67,111 @@
         "sounds": [
             {
                 "name": "starship/weapon/heavy_laser/burst",
-                "attenuation_distance": 16,
-                "pitch": 1.0
+                "attenuation_distance": 48,
+                "pitch": 1.0,
+                "volume": 0.5
             }
         ]
     },
-    "starship.weapon.turbolaser.light.shoot": {
+    "starship.weapon.plasma_cannon.light.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/turbolaser/shoot_1",
-                "attenuation_distance": 12,
-                "pitch": 1.2
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 1.2,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_1",
-                "attenuation_distance": 12,
-                "pitch": 1.15
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 1.1,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_2",
-                "attenuation_distance": 12,
-                "pitch": 1.2
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 1.2,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_2",
-                "attenuation_distance": 12,
-                "pitch": 1.15
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 1.1,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_3",
-                "attenuation_distance": 12,
-                "pitch": 1.2
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 1.2,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_3",
-                "attenuation_distance": 12,
-                "pitch": 1.15
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 1.1,
+                "volume": 0.1
             }
         ]
     },
-    "starship.weapon.turbolaser.heavy.shoot": {
+    "starship.weapon.plasma_cannon.heavy.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/turbolaser/shoot_1",
-                "attenuation_distance": 12,
-                "pitch": 0.8
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 0.5,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_1",
-                "attenuation_distance": 12,
-                "pitch": 0.75
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 0.55,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_2",
-                "attenuation_distance": 12,
-                "pitch": 0.8
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 0.5,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_2",
-                "attenuation_distance": 12,
-                "pitch": 0.75
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 0.55,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_3",
-                "attenuation_distance": 12,
-                "pitch": 0.8
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 0.5,
+                "volume": 0.1
             },
             {
-                "name": "starship/weapon/turbolaser/shoot_3",
-                "attenuation_distance": 12,
-                "pitch": 0.75
+                "name": "starship/weapon/plasma_cannon/shoot",
+                "attenuation_distance": 24,
+                "pitch": 0.55,
+                "volume": 0.1
             }
         ]
     },
     "starship.weapon.plasma_cannon.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/plasma_cannon/shoot",
-                "attenuation_distance": 10,
-                "pitch": 1.0
+                "name": "starship/weapon/turbolaser/shoot_1",
+                "attenuation_distance": 16,
+                "pitch": 1.0,
+                "volume": 0.2
             },
             {
-                "name": "starship/weapon/plasma_cannon/shoot",
-                "attenuation_distance": 10,
-                "pitch": 1.1
+                "name": "starship/weapon/turbolaser/shoot_2",
+                "attenuation_distance": 16,
+                "pitch": 1.0,
+                "volume": 0.2
+            },
+            {
+                "name": "starship/weapon/turbolaser/shoot_3",
+                "attenuation_distance": 16,
+                "pitch": 1.0,
+                "volume": 0.2
             }
         ]
     }
