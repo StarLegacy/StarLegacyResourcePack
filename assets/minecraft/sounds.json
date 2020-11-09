@@ -73,7 +73,7 @@
             }
         ]
     },
-    "starship.weapon.plasma_cannon.light.shoot": {
+    "starship.weapon.turbolaser.light.shoot": {
         "sounds": [
             {
                 "name": "starship/weapon/plasma_cannon/shoot",
@@ -113,7 +113,7 @@
             }
         ]
     },
-    "starship.weapon.plasma_cannon.heavy.shoot": {
+    "starship.weapon.turbolaser.heavy.shoot": {
         "sounds": [
             {
                 "name": "starship/weapon/plasma_cannon/shoot",
