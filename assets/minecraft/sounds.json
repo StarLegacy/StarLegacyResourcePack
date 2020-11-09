@@ -56,7 +56,7 @@
     "starship.weapon.heavy_laser.single.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/heavy_laser/single",
+                "name": "starship/weapon/heavy_laser/shoot",
                 "attenuation_distance": 48,
                 "pitch": 1.0,
                 "volume": 0.5
@@ -66,7 +66,7 @@
     "starship.weapon.heavy_laser.burst.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/heavy_laser/burst",
+                "name": "starship/weapon/heavy_laser/shoot_burst",
                 "attenuation_distance": 48,
                 "pitch": 1.0,
                 "volume": 0.5
@@ -116,40 +116,22 @@
     "starship.weapon.turbolaser.heavy.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/heavy_laser/single",
+                "name": "starship/weapon/turbolaser/shoot",
                 "attenuation_distance": 24,
-                "pitch": 0.5,
-                "volume": 0.1
+                "pitch": 1.0,
+                "volume": 0.9
             },
             {
-                "name": "starship/weapon/heavy_laser/single",
+                "name": "starship/weapon/turbolaser/shoot",
                 "attenuation_distance": 24,
-                "pitch": 0.55,
-                "volume": 0.1
+                "pitch": 1.0,
+                "volume": 0.9
             },
             {
-                "name": "starship/weapon/heavy_laser/single",
+                "name": "starship/weapon/turbolaser/shoot",
                 "attenuation_distance": 24,
-                "pitch": 0.5,
-                "volume": 0.1
-            },
-            {
-                "name": "starship/weapon/heavy_laser/single",
-                "attenuation_distance": 24,
-                "pitch": 0.55,
-                "volume": 0.1
-            },
-            {
-                "name": "starship/weapon/heavy_laser/single",
-                "attenuation_distance": 24,
-                "pitch": 0.5,
-                "volume": 0.1
-            },
-            {
-                "name": "starship/weapon/heavy_laser/single",
-                "attenuation_distance": 24,
-                "pitch": 0.55,
-                "volume": 0.1
+                "pitch": 1.0,
+                "volume": 0.9
             }
         ]
     },
