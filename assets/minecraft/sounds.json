@@ -116,22 +116,64 @@
     "starship.weapon.turbolaser.heavy.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/turbolaser/shoot",
+                "name": "starship/weapon/heavy_turret/shoot",
                 "attenuation_distance": 24,
-                "pitch": 0.7,
+                "pitch": 0.55,
                 "volume": 0.2
             },
             {
-                "name": "starship/weapon/turbolaser/shoot",
+                "name": "starship/weapon/heavy_turret/shoot",
                 "attenuation_distance": 24,
-                "pitch": 0.7,
+                "pitch": 0.6,
                 "volume": 0.2
             },
             {
-                "name": "starship/weapon/turbolaser/shoot",
+                "name": "starship/weapon/heavy_turret/shoot",
                 "attenuation_distance": 24,
-                "pitch": 0.7,
+                "pitch": 0.65,
                 "volume": 0.2
+            }
+        ]
+    },
+    "starship.weapon.turbolaser.tri.shoot": {
+        "sounds": [
+            {
+                "name": "starship/weapon/tri_turret/shoot",
+                "attenuation_distance": 36,
+                "pitch": 1.0,
+                "volume": 0.8
+            },
+            {
+                "name": "starship/weapon/tri_turret/shoot",
+                "attenuation_distance": 36,
+                "pitch": 1.1,
+                "volume": 0.8
+            },
+            {
+                "name": "starship/weapon/tri_turret/shoot",
+                "attenuation_distance": 36,
+                "pitch": 1.2,
+                "volume": 0.8
+            }
+        ]
+    },
+    "starship.weapon.rocket.shoot": {
+        "sounds": [
+            {
+                "name": "starship/weapon/rocket/shoot",
+                "attenuation_distance": 36,
+                "pitch": 0.5,
+                "volume": 0.8
+            }
+        ]
+    },
+    "starship.weapon.rocket.impact": {
+        "sounds": [
+            {
+                "name": "starship/weapon/rocket/impact",
+                "attenuation_distance": 36,
+                "pitch": 1.0,
+                "volume": 1.0
             }
         ]
     },
