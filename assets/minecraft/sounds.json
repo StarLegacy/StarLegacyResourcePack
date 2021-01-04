@@ -76,40 +76,22 @@
     "starship.weapon.turbolaser.light.shoot": {
         "sounds": [
             {
-                "name": "starship/weapon/plasma_cannon/shoot",
+                "name": "starship/weapon/heavy_turret/shoot",
                 "attenuation_distance": 24,
-                "pitch": 1.2,
-                "volume": 0.1
+                "pitch": 1.55,
+                "volume": 0.2
             },
             {
-                "name": "starship/weapon/plasma_cannon/shoot",
+                "name": "starship/weapon/heavy_turret/shoot",
                 "attenuation_distance": 24,
-                "pitch": 1.1,
-                "volume": 0.1
+                "pitch": 1.6,
+                "volume": 0.2
             },
             {
-                "name": "starship/weapon/plasma_cannon/shoot",
+                "name": "starship/weapon/heavy_turret/shoot",
                 "attenuation_distance": 24,
-                "pitch": 1.2,
-                "volume": 0.1
-            },
-            {
-                "name": "starship/weapon/plasma_cannon/shoot",
-                "attenuation_distance": 24,
-                "pitch": 1.1,
-                "volume": 0.1
-            },
-            {
-                "name": "starship/weapon/plasma_cannon/shoot",
-                "attenuation_distance": 24,
-                "pitch": 1.2,
-                "volume": 0.1
-            },
-            {
-                "name": "starship/weapon/plasma_cannon/shoot",
-                "attenuation_distance": 24,
-                "pitch": 1.1,
-                "volume": 0.1
+                "pitch": 1.65,
+                "volume": 0.2
             }
         ]
     },
